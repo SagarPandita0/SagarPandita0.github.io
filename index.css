@@ -2,6 +2,12 @@ span {
   font-size: 4rem;
   font-family: "Roboto", sans-serif;
 }
+.fancy-font {
+  font-family: "Roboto", sans-serif;
+}
+.uc {
+  font-size: 4rem;
+}
 .parent {
   border: 2px solid #000000;
   height: 98vh;
