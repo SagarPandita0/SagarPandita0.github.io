@@ -1,0 +1,28 @@
+.grid {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+span {
+  font-size: 4rem;
+}
+.parent {
+  border: 2px solid #000000;
+  height: 98vh;
+  position: relative;
+  width: 100%;
+}
+
+.child {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+@media screen and (min-width: 300px) {
+  .need-space {
+    visibility: hidden;
+  }
+}
